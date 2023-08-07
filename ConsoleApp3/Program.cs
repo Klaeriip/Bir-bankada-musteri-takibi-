@@ -51,8 +51,8 @@ class Program
     {
         MusteriManager musteriManager = new MusteriManager();
 
-        Musteri musteri1 = new Musteri { Id = 1, Ad = "Ahmet", Soyad = "Yılmaz" };
-        Musteri musteri2 = new Musteri { Id = 2, Ad = "Ayşe", Soyad = "Kara" };
+        Musteri musteri1 = new Musteri { Id = 1, Ad = "Efekan", Soyad = "Ulubaş" };
+        Musteri musteri2 = new Musteri { Id = 2, Ad = "Aden", Soyad = "Random" };
 
         musteriManager.MusteriEkle(musteri1);
         musteriManager.MusteriEkle(musteri2);
